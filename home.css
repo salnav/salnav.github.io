@@ -488,7 +488,7 @@ width: 200px;
 
 } */
 
-@media screen and (max-width: 940px) {
+@media only screen and (max-width: 600px)  {
   .right {
 
     background-color: red;
