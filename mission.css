@@ -314,6 +314,12 @@ justify-content: center;
   position: relative;
 }
 
+@media (max-width: 500px) {
+  .container {
+    height: 125vh;
+  }
+}
+
 
 @keyframes anime {
 from {background: rgba(255,255,255,0);}
