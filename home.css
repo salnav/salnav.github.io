@@ -490,7 +490,7 @@ width: 200px;
 
 @media screen and (max-width: 940px) {
   .container {
-
+    
     background-color: red;
 
 
@@ -624,7 +624,7 @@ width: 200px;
 } */
 
 
-@media (max-width: 500px) and (min-width: 0px) {
+/* @media (max-width: 500px) and (min-width: 0px) {
   .left, .middle, .right {
     width: 250px;
     height: 250px; 
@@ -685,7 +685,7 @@ width: 200px;
 
 
 
-}
+} */
 
 
 /* Mixins */
