@@ -489,8 +489,8 @@ width: 200px;
 } */
 
 @media screen and (max-width: 940px) {
-  .container {
-    
+  .right {
+
     background-color: red;
 
 
