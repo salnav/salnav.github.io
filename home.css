@@ -613,7 +613,7 @@ width: 200px;
 } */
 
 
-@media (min-device-width: 0px) {
+@media (max-width: 500px) and (min-width: 0px) {
   .left, .middle, .right {
     width: 250px;
     height: 250px; 
