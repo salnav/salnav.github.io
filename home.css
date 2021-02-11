@@ -488,6 +488,17 @@ width: 200px;
 
 }
 
+@media screen and (max-width: 940px) {
+  .container {
+
+    background-color: red;
+
+
+  }
+}
+
+
+
 
 @media (max-width: 1262px) and (min-width: 857px) {
   .right {
