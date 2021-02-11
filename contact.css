@@ -363,6 +363,10 @@ nav ul li a{
     margin-left: 25px;
   }
 
+  .container {
+    min-height: 125vh;
+  }
+
 }
 
 /* .BoxandLogo {

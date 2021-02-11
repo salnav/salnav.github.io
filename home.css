@@ -452,7 +452,7 @@ width: 200px;
 } */
 
 
-@media (max-width: 400px) and (min-width: 0px) {
+@media (max-width: 500px) and (min-width: 0px) {
   .left p br:first-child {
     display: none;
   }
@@ -496,10 +496,6 @@ width: 200px;
     
   
   
-  }
-
-  .middle {
-    margin-top: 0;
   }
 
 
