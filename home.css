@@ -452,7 +452,7 @@ width: 200px;
 } */
 
 
-@media (max-width: 500px) and (min-width: 0px) {
+/* @media (max-width: 500px) and (min-width: 0px) {
   .left p br:first-child {
     display: none;
   }
@@ -468,13 +468,13 @@ width: 200px;
   .circles {
     margin: 50px 25px;
   }
-}
+} */
 
 
 
 
 
-@media (max-width: 500px) {
+@media (max-width: 500px) and (min-width: 0px) {
   .left, .middle, .right {
     width: 250px;
     height: 250px; 
@@ -486,6 +486,10 @@ width: 200px;
 
   .container {
     height: 160vh;
+  }
+
+  .middle {
+    margin-top: 0;
   }
 
 
