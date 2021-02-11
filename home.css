@@ -421,7 +421,7 @@ width: 200px;
 
 } */
 
-@media only screen 
+/* @media only screen 
   and (min-device-width: 0px) 
   and (max-device-width: 500px) 
   and (-webkit-min-device-pixel-ratio: 3)
@@ -486,7 +486,7 @@ width: 200px;
     }
   
 
-}
+} */
 
 
 @media (max-width: 1262px) and (min-width: 857px) {
