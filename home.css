@@ -452,7 +452,23 @@ width: 200px;
 } */
 
 
+@media (max-width: 400px) and (min-width: 0px) {
+  .left p br:first-child {
+    display: none;
+  }
 
+  .container {
+    height: 175vh;
+  }
+
+  .middle h1 {
+    font-size: 20px;
+  }
+
+  .circles {
+    margin: 50px 25px;
+  }
+}
 
 
 
@@ -475,9 +491,9 @@ width: 200px;
 
   .facebook {
 
-    width: 25px;
-    height: 25px;
-  
+    width: 30px;
+    height: 30px;
+    
   
   
   }
@@ -504,7 +520,7 @@ width: 200px;
     width: 30px;
     height: 30px;
   
-  
+    margin-top: -10px;
   
   }
   
@@ -513,7 +529,7 @@ width: 200px;
     width: 30px;
     height: 30px;
   
-  
+    margin-top: -10px;
   
   }
 
