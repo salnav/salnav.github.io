@@ -489,12 +489,67 @@ width: 200px;
 } */
 
 @media only screen and (max-width: 600px)  {
-  .right {
+  
+  .left, .middle, .right {
+    width: 250px;
+    height: 250px; 
+  } 
 
-    background-color: red;
+  .text p { 
+    font-size: 20px;
+  }
 
+  .container {
+    height: 160vh;
+  }
+
+  .middle {
+    margin-top: 0;
+  }
+
+
+  .facebook {
+
+    width: 30px;
+    height: 30px;
+    
+  
+  
+  }
+
+
+  .middle p br:first-child {
+    display: none;
+  }
+
+  .middle p {
+
+
+    font-size: 14px;
 
   }
+
+  
+  .instagram {
+  
+    width: 30px;
+    height: 30px;
+  
+    margin-top: -10px;
+  
+  }
+  
+  .twitter {
+  
+    width: 30px;
+    height: 30px;
+  
+    margin-top: -10px;
+  
+  }
+
+
+
 }
 
 
