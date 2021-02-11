@@ -551,6 +551,7 @@ width: 200px;
 
   .container {
     height: 160vh;
+    background: red;
   }
 
   .middle {
