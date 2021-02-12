@@ -521,7 +521,7 @@ width: 200px;
   
   }
 
-  .left p br:first-child  {
+  /* .left p br:first-child  {
 
     display: none;
 
@@ -531,7 +531,7 @@ width: 200px;
 
     display: none;
 
-  }
+  } */
 
 
   .middle p br:first-child {
