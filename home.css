@@ -500,9 +500,13 @@ width: 200px;
   }
 
 
+
+
   .left, .middle, .right {
+    background-color: blue;
     width: 250px;
     height: 250px; 
+    
   } 
 
   .text p { 
