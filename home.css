@@ -493,10 +493,11 @@ width: 200px;
 
 
   .left, .middle, .right {
-    background-color: peru;
+    background-color: red;
     width: 250px;
     height: 250px; 
     
+    display: inline;
   } 
 
   .text p { 
