@@ -284,14 +284,15 @@ width: 200px;
 } */
 
 .circles  {
+  vertical-align: text-top;
   display:inline-block; 
   position: relative;
   margin: 100px 25px;
   border-spacing: 25px;
 }
 
-.left, .middle, .right {
-  margin: auto 25px;
+/* .left {
+  margin-top: 100px;
   display: inline-block;
   height: 350px;
   position: relative;
@@ -300,6 +301,39 @@ width: 200px;
   animation-name: anime;
   animation-duration: 3s;
 }
+
+.middle, .right {
+  margin: auto 25px;
+  display: inline-block;
+  height: 350px;
+  position: relative;
+  width: 350px;
+  background: rgba(255,255,255,0);
+  animation-name: anime;
+  animation-duration: 3s;
+} */
+
+
+
+.left, .middle, .right {
+  margin: auto 25px;
+  vertical-align: text-top;
+  display: inline-block;
+  height: 350px;
+  position: relative;
+  width: 350px;
+  background: rgba(255,255,255,0);
+  animation-name: anime;
+  animation-duration: 3s;
+}
+
+/* .space {
+
+
+  padding-top: 10000px;
+
+} */
+
 
 .text {
   /* background: radial-gradient(
@@ -335,10 +369,52 @@ width: 200px;
    height: 100%;
    line-height: 1.25;
    padding: 0;
-   padding-top: 50px;
+   
    text-align: center;
    text-shadow: 0.5px 0.5px 1px rgba(0, 0, 0, 0.3);
  }
+
+.left .text p {
+
+
+  padding-top: 50px;
+
+}
+
+
+ .middle .text p {
+
+
+  padding-top: 50px;
+
+}
+
+.pics {
+
+  padding-right: 150px;
+  padding-top: 30px;
+  padding-left: 150px;
+  
+
+}
+
+.instagram {
+
+  /* padding-top: 30px; */
+  margin-top: 25px;
+
+}
+
+.twitter {
+
+  /* padding-top: 30px; */
+  margin-top: 25px;
+}
+
+
+
+
+
 
 .text::before {
   content: "";
@@ -492,26 +568,30 @@ width: 200px;
 
 @media only screen and (max-width: 600px)  {
   
+
   h1 {
  
     padding-top: 40px;
   
   }
+
+  .pics {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+  }
   
-  .left p  {
+  .left .text p  {
   
   padding-top: 40px;
   
   }
   
-  .middle p {
+  .middle .text p {
   
   padding-top: 35px;
   
   }
-
-
-
 
   .left, .middle, .right {
     width: 250px;
@@ -535,7 +615,8 @@ width: 200px;
 
     width: 30px;
     height: 30px;
-    
+    /* padding-top: 30px;  */
+   
   
   
   }
@@ -570,8 +651,8 @@ width: 200px;
     width: 30px;
     height: 30px;
   
-    margin-top: -10px;
-  
+    margin-top: 10px;
+    /* padding-top: 30px;  */
   }
   
   .twitter {
@@ -579,8 +660,8 @@ width: 200px;
     width: 30px;
     height: 30px;
   
-    margin-top: -10px;
-  
+    margin-top: 10px;
+    /* padding-top: 30px;  */
   }
 
 
